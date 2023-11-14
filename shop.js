@@ -16,6 +16,7 @@ for(let i in allNavLinks){
                 <h3>Price (AZN): ${Math.floor(Math.random()*320000)+1}</h3>
                 <h3>Is New: Yes</h3>
                 <h3>Phone: +994 50 808 69 68</h3>
+                <button class="btn btn-info" onclick="alert('Added to your basket!')">Add to basket</button>
             </div>`
         }
         for(let comp of computerList){
@@ -27,6 +28,7 @@ for(let i in allNavLinks){
                 <h3>Price (AZN): ${Math.floor(Math.random()*320000)+1}</h3>
                 <h3>Is New: Yes</h3>
                 <h3>Phone: ${JSON.parse(localStorage.getItem('currentUser')).phone}</h3>
+                <button class="btn btn-info" onclick="alert('Added to your basket!')">Add to basket</button>
             </div>`
             }
         }
