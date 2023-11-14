@@ -1,0 +1,31 @@
+.active{
+    font-weight: bold;
+}
+.nav-item{
+    border: 1px solid gray;
+}
+.nav-link{
+    text-align: start;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#acer, #hp, #asus, #deli, #lenovo, #lg, #casper, #fujitsu, #nexus, #samsung, #toshiba, #sony{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.computer{
+    background: gray;
+}
+.computer img{
+    width: 100%;
+}
+h3{
+    font-size: 16px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Bootstrap (47-54)/Style Bootstrap.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Computer shop</title>
+</head>
+<body>
+    <hr>
+    <a href="./computers.html" class="btn btn-primary">My computers</a>
+    <a href="./shop.html" class="btn btn-warning">Start shopping</a>
+    <a href="./login.html" class="btn btn-success">Log In</a>
+    <button class="btn btn-danger" onclick="logOut()">Log Out</button>
+    <hr>
+    <h1>User Name: <span class="name"></span></h1>
+    <hr>
+    <div class="carousel slide" id="computers" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button class="active" data-bs-target="#computers" data-bs-slide-to="0"></button>
+            <button data-bs-target="#computers" data-bs-slide-to="1"></button>
+            <button data-bs-target="#computers" data-bs-slide-to="2"></button>
+            <button data-bs-target="#computers" data-bs-slide-to="3"></button>
+            <button data-bs-target="#computers" data-bs-slide-to="4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="https://history-computer.com/wp-content/uploads/2023/01/shutterstock_2093652733-scaled.jpg" alt="...">
+                <div class="carousel-caption">
+                    <h4>Acer</h4>
+                    <p>One of the most popular computers</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://i.pcmag.com/imagery/roundups/03yEDeTzPo1WxOu5QGWq9Zq-20..v1690230477.jpg" alt="...">
+                <div class="carousel-caption text-danger">
+                    <h4>Asus</h4>
+                    <p>Cheap computers</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://my-media.apjonlinecdn.com/magefan_blog/5_Components_Of_A_Computer_And_Their_Benefits.jpg" alt="...">
+                <div class="carousel-caption text-success">
+                    <h4>Deli</h4>
+                    <p>Not so popular but good</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_desktop_computers.jpg" alt="...">
+                <div class="carousel-caption">
+                    <h4>HP</h4>
+                    <p>Legendary computers</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://content.jdmagicbox.com/comp/def_content/computer_dealers/default-computer-dealers-17.jpg" alt="...">
+                <div class="carousel-caption text-success">
+                    <h4>Lenovo</h4>
+                    <p>Famous all over the world</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#computers" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#computers" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <script src="../Bootstrap (47-54)/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

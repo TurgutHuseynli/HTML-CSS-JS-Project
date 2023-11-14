@@ -1,0 +1,10 @@
+.screen{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+hr{
+    width: 600px;
+}

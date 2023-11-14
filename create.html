@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Bootstrap (47-54)/Style Bootstrap.css">
+    <link rel="stylesheet" href="./create.css">
+    <title>Create an account</title>
+</head>
+<body>
+    <div class="screen">
+        <hr>
+        <a href="./main.html" class="btn btn-warning">Main Page</a>
+        <hr>
+        <h1>Create an account</h1>
+        <hr>
+        <div class="alert alert-success">Successfully registered!</div>
+        <form class="needs-validation" novalidate>
+            <div>
+                <label for="your-name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="your-name" required>
+                <span class="valid-feedback">Looks good!</span>
+                <span class="invalid-feedback">Do not leave empty. It must contain minimum 2 and maximum 30 symbols.</span>
+            </div>
+            <div class="mt-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phone" required>
+                <span class="valid-feedback">Looks good!</span>
+                <span class="invalid-feedback">Invalid way of writing phone number. The correct way is 000-000-0000.</span>
+            </div>
+            <div class="mt-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" required>
+                <span class="valid-feedback">Looks good!</span>
+                <span class="invalid-feedback">Do not leave empty. It must contain minimum 2 and maximum 30 symbols.</span>
+            </div>
+            <div class="mt-3">
+                <label for="pd" class="form-label">Password</label>
+                <input type="password" class="form-control" id="pd" required>
+                <span class="valid-feedback">I hope it is secure.</span>
+                <span class="invalid-feedback">Do not leave empty. It must contain minimum 2 and maximum 30 symbols.</span>
+            </div>
+            <div class="mt-3">
+                <button class="btn btn-success" type="submit">Create an account</button>
+            </div>
+        </form>
+        <hr>
+        <h5>Already have an account? <a href="./login.html" class="btn btn-primary">Log In</a></h5>
+    </div>
+    <script src="../Bootstrap (47-54)/bootstrap.bundle.min.js"></script>
+    <script src="./create.js"></script>
+</body>
+</html>
