@@ -20,12 +20,20 @@ img{
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
-.computer{
+.main-window{
     background: gray;
+    padding: 5px;
+}
+.computer{
+    background: white;
+    padding: 5px;
 }
 .computer img{
     width: 100%;
 }
 h3{
     font-size: 16px;
+}
+input{
+    width: 100%;
 }
