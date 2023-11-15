@@ -53,6 +53,9 @@ let valid = false
 let a;
 let currentId = ''
 let currentIndex = 0
+document.getElementById('plus').addEventListener('click', () => {
+    document.getElementById('add').innerHTML = 'Add a Computer'
+})
 document.getElementById('add').onclick = () => {
     if(document.getElementById('add').innerHTML == 'Add a Computer'){
         valid = true
