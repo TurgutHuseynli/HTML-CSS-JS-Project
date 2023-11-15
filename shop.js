@@ -76,25 +76,13 @@ searchInput.addEventListener('input', function(){
         }
     }else{
         matchedCategories = []
-        // matchedCategory = ''
-        // for(let i of compTypes){
-        //    matched = true
-        //     for(let k of this.value.split('')){
-        //         if(!i.split('').includes(k)){
-        //             matched = false
-        //         }
-        //     }
-        //     if(matched){
-        //         matchedCategory = i
-        //     }
-        // }
         for(let a of allTabPanes){
             a.innerHTML = ''
         }
         for(let i of compTypes){
             matched = true
-            for(let k of this.value.split('')){
-                if(!i.split('').includes(k)){
+            for(let k of this.value.toUpperCase().split('')){
+                if(!i.toUpperCase().split('').includes(k)){
                     matched = false
                 }
             }
